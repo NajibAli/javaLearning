@@ -49,5 +49,7 @@ public class AnimalDemo {
         while (it.hasNext()) {
             System.out.println(it.next());
         }
+
+
     }
 }
