@@ -6,11 +6,11 @@ public class Cat extends Animal {
 
     @Override
     String sayHello() {
-        return null;
+        return "Meow";
     }
 
     @Override
     String move() {
-        return null;
+        return "Cat moves";
     }
 }
