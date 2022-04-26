@@ -41,8 +41,8 @@ public class Rectange extends Shape{
     }
 
     public Point getCenterPoint() {
-        // Don't really understand this
-        return null;
+        Point centre = new Point(this.getX()+(this.getWidth()/2), this.getY()+(this.getHeight()/2));
+        return centre;
     }
     
     public String toString(){

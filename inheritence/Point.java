@@ -1,10 +1,10 @@
 public class Point {
-    private int x;
-    private int y;
+    private double x;
+    private double y;
 
-    Point(int x, int y){
-        this.x = x;
-        this.y = y;
+    Point(double d, double e){
+        this.x = d;
+        this.y = e;
     }
 
     public void setX(int x){
@@ -13,10 +13,10 @@ public class Point {
     public void setY(int y){
         this.y = y;
     };
-    public int getX(){
+    public double getX(){
         return this.x;
     }
-    public int getY(){
+    public double getY(){
         return this.y;
     }
 
