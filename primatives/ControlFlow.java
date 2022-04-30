@@ -61,7 +61,7 @@ public class ControlFlow {
 
        leapYear(2024);
        leapYear(2022);
-
+       leapYear(1999);
     }
 
     static void leapYear(int year) {
